@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    color: #f1eeee;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(95, 5, 5);
+    height: 10vh;
+}
+
+.nav-list {
+    font-size: 12.5px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.borda {
+    background-color: rgb(138, 135, 119); border-radius: 26px; padding: 6.6px; text-align: center;
+}
+
+main {
+    padding-top: 10vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i0.wp.com/www.crossovernerd.com/wp-content/uploads/2022/02/Guia_leitura_cronologico_homem_Aranha_Capa.jpg?fit=1920%2C1080&ssl=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 89.5vh;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+#game {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/1200x/77/7b/5b/777b5b37fc84c5a23dd4c7f53b9e0bf0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(250, 246, 246, 0.555);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #c2bdbd;
+    margin: 50px;
+}
+
+h2, .dica {
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 50%;
+    background: rgb(95, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1a0000;
+    color: #c2bdbd;
+}
+
+button h4 {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+button h4:hover {
+    opacity: 0.7;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    min-height: 20px;
+}
+
